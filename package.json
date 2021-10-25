@@ -51,7 +51,7 @@
     "@ledgerhq/hw-transport-http": "6.7.0",
     "@ledgerhq/hw-transport-node-hid-singleton": "6.7.0",
     "@ledgerhq/ledger-core": "6.13.0",
-    "@ledgerhq/live-common": "git+https://github.com/LedgerHQ/ledger-live-common.git#57aba689e6bd78de02f1cc6a5416d2014d993702",
+    "@ledgerhq/live-common": "git+https://github.com/LedgerHQ/ledger-live-common.git#3a52b16daf413b578b893f9596b975863ca9effe",
     "@ledgerhq/logs": "6.2.0",
     "@polkadot/react-identicon": "0.85.3",
     "@tippyjs/react": "^4.2.5",
