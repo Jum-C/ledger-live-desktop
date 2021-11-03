@@ -1744,17 +1744,20 @@
   },
   "send": {
     "title": "Send",
+    "titleNft": "Send NFT",
     "totalSpent": "Total to debit",
     "steps": {
       "recipient": {
-        "title": "Recipient"
+        "title": "Recipient",
+        "nftRecipient": "NFT to send"
       },
       "amount": {
         "title": "Amount",
         "banner": "Maximum spendable amount is",
         "fees": "Fees",
         "standard": "Standard",
-        "advanced": "Advanced"
+        "advanced": "Advanced",
+        "nftQuantity": "Quantity"
       },
       "summary": {
         "title": "Summary"
@@ -1776,7 +1779,9 @@
         "rippleTagPlaceholder": "Optional",
         "ethereumGasLimit": "Gas limit",
         "ethereumGasPrice": "Gas price",
-        "unitPerByte": "{{unit}} per byte"
+        "unitPerByte": "{{unit}} per byte",
+        "nft": "NFT",
+        "nftQuantity": "Quantity"
       },
       "verification": {
         "streaming": {
@@ -3421,7 +3426,13 @@
       "undelegate": "validator",
       "claimReward": "rewards recipient",
       "optIn": "recipient",
-      "nominate": "validator"
+      "nominate": "validator",
+      "erc721": {
+        "transfer": "recipient"
+      },
+      "erc1155": {
+        "transfer": "recipient"
+      }
     },
     "votes": "Votes ({{count}})"
   },
@@ -4021,6 +4032,9 @@
     },
     "ServiceStatusWarning": {
       "title": "{{message}}"
+    },
+    "NotEnoughNftOwned": {
+      "title": "You have exceeded the number of available tokens"
     }
   }
 }
