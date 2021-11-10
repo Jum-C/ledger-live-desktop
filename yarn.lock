@@ -2495,10 +2495,15 @@
     "@ledgerhq/errors" "^5.50.0"
     events "^3.3.0"
 
-"@ledgerhq/icons-ui@^0.1.0", "@ledgerhq/icons-ui@^0.1.1":
+"@ledgerhq/icons-ui@^0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@ledgerhq/icons-ui/-/icons-ui-0.1.1.tgz#0f6e86cd2b70de6cd42fc4f7051f47f718149bf6"
   integrity sha512-HB+a3osBJKyPFuBUWlXNw9g7qAjI2TKY7qhfQAwMab6W3A6wYVLYOtLgdrABzfHVLhHmzFRlLuRm5bTgG8BA6A==
+
+"@ledgerhq/icons-ui@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/icons-ui/-/icons-ui-0.2.0.tgz#7b57112fb51ee30f1fa9c3369d34cbad6608290e"
+  integrity sha512-yBklUEkrUzueiwuXGnK3jXdVMSlkSLTojGdXsfG/UD7+NmH25AtsRGdt7GQvASgzsRW1mUjuLnqQIXCESVKdGA==
 
 "@ledgerhq/json-bignumber@^1.1.0":
   version "1.1.0"
@@ -2623,17 +2628,17 @@
   resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-5.50.0.tgz#29c6419e8379d496ab6d0426eadf3c4d100cd186"
   integrity sha512-swKHYCOZUGyVt4ge0u8a7AwNcA//h4nx5wIi0sruGye1IJ5Cva0GyK9L2/WdX+kWVTKp92ZiEo1df31lrWGPgA==
 
-"@ledgerhq/react-ui@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/react-ui/-/react-ui-0.1.1.tgz#1712bb5a481c7b7b02e7fbb66df602ffd27442fb"
-  integrity sha512-A9LZmHOHN26nG5Teu6WrI9fC4D8hji1zP1DdeDKuIRMsk45lFf/y4wykdAtOWz2fIDdctvQSagjQoB4CrOA8Pw==
+"@ledgerhq/react-ui@^0.1.3":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/react-ui/-/react-ui-0.2.0.tgz#5b8f9dd9850ff82089f158f99a152a6f87824d48"
+  integrity sha512-av3xycZuwdrtp9Yracg95QitG40qEBHE6yQmzsTrEoApupPwKhSfLEo49mjWZEIX0TEHFdy/xoXDl2my8w1oXg==
   dependencies:
-    "@ledgerhq/icons-ui" "^0.1.0"
-    "@ledgerhq/ui-shared" "^0.1.1"
-    "@tippyjs/react" "^4.2.5"
+    "@ledgerhq/icons-ui" "^0.2.0"
+    "@ledgerhq/ui-shared" "^0.1.3"
+    "@tippyjs/react" "^4.2.6"
     "@types/color" "^3.0.2"
-    "@types/react" "~17.0.28"
-    "@types/react-dom" "^17.0.9"
+    "@types/react" "~17.0.34"
+    "@types/react-dom" "^17.0.11"
     "@types/react-select" "^4.0.18"
     "@types/react-transition-group" "^4.4.2"
     "@types/react-window" "^1.8.5"
@@ -2644,16 +2649,17 @@
     color "^3.1.3"
     moment "^2.29.1"
     react-chartjs-2 "^3.0.5"
+    react-is "^17.0.2"
     react-select "^3.2.0"
     react-transition-group "^4.4.2"
     react-window "^1.8.6"
     styled-components "^5.2.3"
     styled-system "^5.1.5"
 
-"@ledgerhq/ui-shared@^0.1.1":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@ledgerhq/ui-shared/-/ui-shared-0.1.2.tgz#0577f24af4d93ebf1964bfd22211a62f9cf88663"
-  integrity sha512-JegsvmuXy4DECw3YQnwA9JLohOKQtKJiS3vG8GAOU2qo7GmniasIGrh10nSAVcpxtM4GCdnmh+va6ifkxeSLPw==
+"@ledgerhq/ui-shared@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/ui-shared/-/ui-shared-0.1.3.tgz#2364297020c1e9906d103c6f7cd5b3e4ad71a2eb"
+  integrity sha512-XGg/bw6b37EV0fh8FnMtPmLqkZsbHR0w3fEBwiN3H169HPv1GLWmrJH+85Zqsae6QXkOQtS3V9LnNlz73tsfbw==
 
 "@mdx-js/loader@^1.6.22":
   version "1.6.22"
@@ -4180,6 +4186,13 @@
   dependencies:
     tippy.js "^6.3.1"
 
+"@tippyjs/react@^4.2.6":
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/@tippyjs/react/-/react-4.2.6.tgz#971677a599bf663f20bb1c60a62b9555b749cc71"
+  integrity sha512-91RicDR+H7oDSyPycI13q3b7o4O60wa2oRbjlz2fyRLmHImc4vyDwuUP8NtZaN0VARJY5hybvDYrFzhY9+Lbyw==
+  dependencies:
+    tippy.js "^6.3.1"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
@@ -4604,10 +4617,17 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-dom@*", "@types/react-dom@^17.0.9":
+"@types/react-dom@*":
   version "17.0.9"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.9.tgz#441a981da9d7be117042e1a6fd3dac4b30f55add"
   integrity sha512-wIvGxLfgpVDSAMH5utdL9Ngm5Owu0VsGmldro3ORLXV8CShrL8awVj06NuEXFQ5xyaYfdca7Sgbk/50Ri1GdPg==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-dom@^17.0.11":
+  version "17.0.11"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.11.tgz#e1eadc3c5e86bdb5f7684e00274ae228e7bcc466"
+  integrity sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==
   dependencies:
     "@types/react" "*"
 
@@ -4678,10 +4698,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@~17.0.28":
-  version "17.0.30"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.30.tgz#2f8e6f5ab6415c091cc5e571942ee9064b17609e"
-  integrity sha512-3Dt/A8gd3TCXi2aRe84y7cK1K8G+N9CZRDG8kDGguOKa0kf/ZkSwTmVIDPsm/KbQOVMaDJXwhBtuOXxqwdpWVg==
+"@types/react@~17.0.34":
+  version "17.0.34"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.34.tgz#797b66d359b692e3f19991b6b07e4b0c706c0102"
+  integrity sha512-46FEGrMjc2+8XhHXILr+3+/sTe3OfzSPU9YGKILLrUYbQ1CLQC9Daqo1KzENGXAWwrFwiY0l4ZbF20gRvgpWTg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
